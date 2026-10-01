@@ -1,3 +1,5 @@
+<img width="1099" height="888" alt="image" src="https://github.com/user-attachments/assets/b1fb12a5-8f4c-4ce1-9e8c-3d201c2bb0f5" />
+
 <div align="center">
 
 # 🎵 ClubMusic
