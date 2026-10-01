@@ -1,4 +1,4 @@
-<img width="1099" height="888" alt="image" src="https://github.com/user-attachments/assets/b1fb12a5-8f4c-4ce1-9e8c-3d201c2bb0f5" />
+<img width="1280" height="720" alt="clubmusic_english" src="https://github.com/user-attachments/assets/2a41fd4f-c6bb-4948-b2ee-4a1849037401" />
 
 <div align="center">
 
