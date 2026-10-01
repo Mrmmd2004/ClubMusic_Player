@@ -6,7 +6,7 @@
 
 **A modern, fast and fully customizable music player for Windows**
 
-PyQt6 · mutagen · Windows 10/11 (64-bit) · English + فارسی
+PyQt6 · mutagen · Windows 10/11 (64-bit) · 16 languages
 
 [English](#english) · [فارسی](#فارسی) · [Telegram](https://t.me/Clubapp8)
 
@@ -18,27 +18,33 @@ PyQt6 · mutagen · Windows 10/11 (64-bit) · English + فارسی
 
 ## English
 
-ClubMusic is a Poweramp-style desktop music player. It scans your folders, builds a library (folders, albums, artists, songs, playlists…), and lets you change almost every color and behavior from Settings. One program, two languages: **English** (default) and **Persian** (with a full right-to-left layout).
+ClubMusic is a Poweramp-style desktop music player. It scans your folders, builds a library (folders, albums, artists, songs, playlists…), and lets you change almost every color and behavior from Settings. One program, **16 languages**: English (default), فارسی, العربية, اردو, Türkçe, Español, Deutsch, Français, Italiano, Português, Nederlands, Русский, हिन्दी, 简体中文, 日本語 and 한국어 — with a full right-to-left layout for Persian, Arabic and Urdu.
 
 ### ⭐ What makes it special
 
 - **Just give it a folder** – drop one or more folders on the window (or press `+`) and ClubMusic brings in *every* song inside, sub-folders included, and keeps the library up to date.
 - **Make the lists as big or as small as you like** – zoom the song and folder lists with `Ctrl` + mouse wheel, from a compact list up to huge cover grids, and tune the look (card style, corner roundness) to your taste.
+- **Sound that follows your speakers** – turn Bluetooth on or off, or change the default output in Windows, and ClubMusic moves to the new device within a second, keeping the same song, position, volume and play / pause state. No restart needed.
 
 ### ✨ Features
 
-- **Library** – add folders (sub-folders are scanned automatically) with the `+` button or by drag & drop; tabs for Folders / Albums / Artists / Songs / Liked / Most played / Dropped / Next play / Playlists.
+- **Library** – add folders (sub-folders are scanned automatically) with the `+` button or by drag & drop; tabs for Folders / Albums / Artists / Songs / Liked / Most played / Dropped / Next play / Playlists. Show, hide, reorder and choose the start list in *Settings → Library*.
 - **Fast & smooth** – covers load in background threads, cached rounded covers, smooth mouse-wheel scrolling, multi-threaded library scan, instant-feeling search even with 20,000+ songs.
 - **Modern look** – soft dark / light themes, rounded cards, pill tabs, floating mini-player card, big cover with soft shadow.
 - **Customizable** – button colors, corner roundness, list order, card style, click-on-picture actions, shortcuts, volume step, and more.
+- **Every song shows its own cover** – a song without a picture shows a colored note (optionally falls back to the folder's `cover.jpg` / `folder.jpg`).
+- **Back keeps your place** – after opening a folder, album, artist or playlist and pressing Back, the list is exactly where you left it (can be turned off).
 - **Mouse-wheel volume** – on the Now Playing page, the bottom bar and the small window.
-- **Small window (mini player)** – song list, search, pin on top.
-- **Sort per list** – by name, artist, album, length, date added, times played.
+- **Small window (mini player)** – song list, search, pin on top. A pin button is also on the main page.
+- **Sort per list** – by name, artist, album, length, date added, times played; every list remembers its own order.
+- **Dropped list** – songs you drag into the window are collected here (newest first) and start playing right away. Can be cleared automatically when the program closes.
+- **Most played** – remove a song (or many selected songs) from the list; its play count goes back to 0.
 - **Next play queue** – songs added with *Play next*, removable one by one or in bulk.
-- **Duplicate finder** – finds the same song several times and keeps only the best copy (always asks first).
+- **Duplicate finder** – finds the same song several times, shows a review window, and keeps only the copies you choose (always asks first).
+- **Real song length** – half-downloaded / cut-off MP3 files show the length that is really inside the file, not the wrong one from the header.
 - **File management** – right-click to share files, show in folder, remove a folder from the library, or delete from the device.
 - **Icons** – choose the music-file icon and the app icon from many looks (Glass, Ice, Neon, Black, Blue…).
-- **Languages** – English and Persian (RTL), switch from *Settings → Language*.
+- **Languages** – 16 languages, switch from *Settings → Language*. Every language is a single editable `lang_xx.py` file, so you can fix a phrase or add your own language.
 
 ### ⬇️ Download
 
@@ -67,27 +73,33 @@ Copyright © Club. All rights reserved. The source code is not published; you ma
 
 ## فارسی
 
-کلاب‌موزیک یک پخش‌کننده‌ی موسیقی دسکتاپ به سبک Poweramp است. پوشه‌های شما را اسکن می‌کند، کتابخانه می‌سازد (پوشه‌ها، آلبوم‌ها، خواننده‌ها، آهنگ‌ها، پلی‌لیست‌ها و…) و تقریباً همه‌ی رنگ‌ها و رفتارها را از بخش تنظیمات قابل تغییر می‌کند. یک برنامه با دو زبان: **انگلیسی** (پیش‌فرض) و **فارسی** (با چیدمان کامل راست‌به‌چپ).
+کلاب‌موزیک یک پخش‌کننده‌ی موسیقی دسکتاپ به سبک Poweramp است. پوشه‌های شما را اسکن می‌کند، کتابخانه می‌سازد (پوشه‌ها، آلبوم‌ها، خواننده‌ها، آهنگ‌ها، پلی‌لیست‌ها و…) و تقریباً همه‌ی رنگ‌ها و رفتارها را از بخش تنظیمات قابل تغییر می‌کند. یک برنامه با **۱۶ زبان**: انگلیسی (پیش‌فرض)، فارسی، عربی، اردو، ترکی استانبولی، اسپانیایی، آلمانی، فرانسوی، ایتالیایی، پرتغالی، هلندی، روسی، هندی، چینی ساده‌شده، ژاپنی و کره‌ای — با چیدمان کامل راست‌به‌چپ برای فارسی، عربی و اردو.
 
 ### ⭐ چه چیزی این برنامه را خاص می‌کند
 
 - **فقط یک پوشه بده** – یک یا چند پوشه را روی پنجره بنداز (یا دکمه‌ی `+` را بزن) و کلاب‌موزیک *همه‌ی* آهنگ‌های داخلش را، با زیرپوشه‌ها، می‌آورد و کتابخانه را به‌روز نگه می‌دارد.
 - **لیست آهنگ‌ها را هر قدر دوست داری بزرگ یا کوچک کن** – با `Ctrl` + چرخ ماوس لیست آهنگ‌ها و پوشه‌ها را زوم کن، از لیست فشرده تا شبکه‌ی کاورهای خیلی بزرگ، و ظاهرش (سبک کارت، گردی گوشه‌ها) را به سلیقه‌ی خودت تنظیم کن.
+- **صدا همراه اسپیکرت می‌آید** – بلوتوث را روشن یا خاموش کن، یا خروجی پیش‌فرض ویندوز را عوض کن؛ کلاب‌موزیک در کمتر از یک ثانیه به خروجی جدید می‌رود و همان آهنگ، همان لحظه، همان صدا و همان حالت پخش / مکث را نگه می‌دارد. نیازی به بستن و باز کردن برنامه نیست.
 
 ### ✨ امکانات
 
-- **کتابخانه** – پوشه‌ها را با دکمه‌ی `+` یا با کشیدن و رها کردن اضافه کنید (زیرپوشه‌ها خودکار اسکن می‌شوند)؛ تب‌های پوشه‌ها / آلبوم‌ها / خواننده‌ها / آهنگ‌ها / پسندیده‌ها / پربازدیدترین‌ها / رهاشده‌ها / پخش بعدی / پلی‌لیست‌ها.
+- **کتابخانه** – پوشه‌ها را با دکمه‌ی `+` یا با کشیدن و رها کردن اضافه کنید (زیرپوشه‌ها خودکار اسکن می‌شوند)؛ تب‌های پوشه‌ها / آلبوم‌ها / خواننده‌ها / آهنگ‌ها / پسندیده‌ها / پربازدیدترین‌ها / رهاشده‌ها / پخش بعدی / پلی‌لیست‌ها. نمایش، پنهان کردن، ترتیب و لیست شروع را از *تنظیمات ← کتابخانه* انتخاب کنید.
 - **سریع و روان** – بارگذاری کاور در پس‌زمینه، کاورهای گرد کش‌شده، اسکرول نرم با چرخ ماوس، اسکن چندنخی کتابخانه و جستجوی سریع حتی با بیش از ۲۰٬۰۰۰ آهنگ.
 - **ظاهر مدرن** – تم تیره و روشن نرم، کارت‌های گرد، تب‌های قرصی، مینی‌پلیر شناور و کاور بزرگ با سایه‌ی ملایم.
 - **قابل شخصی‌سازی** – رنگ دکمه‌ها، میزان گردی گوشه‌ها، ترتیب لیست‌ها، سبک کارت‌ها، عمل کلیک روی تصویر، کلیدهای میانبر، گام صدا و بیشتر.
+- **هر آهنگ کاور خودش را دارد** – آهنگ بدون تصویر یک نت رنگی نشان می‌دهد (در صورت دلخواه از `cover.jpg` / `folder.jpg` پوشه استفاده می‌شود).
+- **«بازگشت» جایت را یادش می‌ماند** – بعد از باز کردن یک پوشه، آلبوم، خواننده یا پلی‌لیست و زدن بازگشت، لیست دقیقاً همان‌جایی است که رها کرده بودی (قابل خاموش کردن).
 - **تنظیم صدا با چرخ ماوس** – در صفحه‌ی در حال پخش، نوار پایین و پنجره‌ی کوچک.
-- **پنجره‌ی کوچک (مینی‌پلیر)** – لیست آهنگ‌ها، جستجو و سنجاق کردن روی بقیه‌ی پنجره‌ها.
-- **مرتب‌سازی جداگانه برای هر لیست** – بر اساس نام، خواننده، آلبوم، مدت، تاریخ افزوده شدن و تعداد پخش.
+- **پنجره‌ی کوچک (مینی‌پلیر)** – لیست آهنگ‌ها، جستجو و سنجاق کردن روی بقیه‌ی پنجره‌ها. دکمه‌ی سنجاق در صفحه‌ی اصلی هم هست.
+- **مرتب‌سازی جداگانه برای هر لیست** – بر اساس نام، خواننده، آلبوم، مدت، تاریخ افزوده شدن و تعداد پخش؛ هر لیست ترتیب خودش را به خاطر می‌سپارد.
+- **لیست رهاشده‌ها** – آهنگ‌هایی که داخل پنجره می‌اندازی (جدیدترین بالا) اینجا جمع می‌شوند و همان لحظه شروع به پخش می‌کنند. می‌تواند هنگام بستن برنامه خودکار خالی شود.
+- **پربازدیدترین‌ها** – یک آهنگ (یا چند آهنگ انتخاب‌شده) را از لیست حذف کن؛ تعداد پخشش به صفر برمی‌گردد.
 - **صف پخش بعدی** – آهنگ‌هایی که با «پخش بعدی» اضافه شده‌اند؛ تکی یا گروهی قابل حذف.
-- **یافتن آهنگ‌های تکراری** – آهنگ‌های چندباره را پیدا می‌کند و فقط بهترین نسخه را نگه می‌دارد (همیشه قبل از حذف می‌پرسد).
+- **یافتن آهنگ‌های تکراری** – آهنگ‌های چندباره را پیدا می‌کند، یک پنجره‌ی بررسی نشان می‌دهد و فقط نسخه‌هایی را که تو انتخاب کنی حذف می‌کند (همیشه قبل از حذف می‌پرسد).
+- **مدت واقعی آهنگ** – فایل‌های MP3 نیمه‌دانلودشده یا ناقص، مدتی را نشان می‌دهند که واقعاً داخل فایل است، نه مدت اشتباهِ هدر فایل.
 - **مدیریت فایل** – با کلیک راست: اشتراک‌گذاری فایل، نمایش در پوشه، حذف پوشه از کتابخانه یا حذف از دستگاه.
 - **آیکن‌ها** – آیکن فایل‌های موسیقی و آیکن برنامه را از بین حالت‌های مختلف (شیشه‌ای، یخی، نئون، مشکی، آبی و…) انتخاب کنید.
-- **زبان‌ها** – انگلیسی و فارسی (راست‌به‌چپ)، از *تنظیمات ← زبان*.
+- **زبان‌ها** – ۱۶ زبان، از *تنظیمات ← زبان*. هر زبان فقط یک فایل `lang_xx.py` است که می‌توانی ویرایشش کنی تا یک عبارت را درست کنی یا زبان خودت را اضافه کنی.
 
 ### ⬇️ دانلود
 
